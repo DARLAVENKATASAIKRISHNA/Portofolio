@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+    background-color: gray;
+    padding: 20px;
+    font-family: Arial;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+    padding: 18px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+ 
+.row: after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    border-radius:15%;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+<div class="main">
+<img src="icon.jpg" alt="Forest" style="width:10%">
+<h1 style="text-align:right;" >NATURE</h1>
+
+<hr>
+<div class="content">
+  <img src="def.jpg" alt="def" style="width:80%;height: 50%;" class="Responsive">
+  <p> <a href="https://www.google.co.in/search?q=deforestation&rlz=1C1CHZL_enIN781IN781&oq=DE&aqs=chrome.0.69i59j69i60l4j69i57.2140j0j7&sourceid=chrome&ie=UTF-8">DEFORESTATION</a></p>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="nature1.jpg" alt="Forest" style="width:90%">
+      <p><a href="https://www.google.co.in/search?q=forest+images&rlz=1C1CHZL_enIN781IN781&oq=forest&aqs=chrome.0.69i59j69i57j69i61l2j0l2.4630j0j7&sourceid=chrome&ie=UTF-8">Forest</a></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="nature2.jpg" alt="Garden" style="width:90%">
+    <p><a href="https://www.google.co.in/search?q=garden+images&rlz=1C1CHZL_enIN781IN781&oq=Garde&aqs=chrome.0.69i59j69i60j69i57j0l3.5716j0j7&sourceid=chrome&ie=UTF-8">Garden</a></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="house.jpg" alt="House" style="width:90%">
+   <p><a href= "https://www.google.co.in/search?q=house+images&rlz=1C1CHZL_enIN781IN781&oq=house&aqs=chrome.2.69i59l3j69i57j0l2.7086j0j7&sourceid=chrome&ie=UTF-8">House</a></p>
+    </div>
+  </div>
+  
+
+</div>
+
+</body>
+</html>
